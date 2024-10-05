@@ -10,36 +10,40 @@ function App() {
       <Header />
 
       
-      {/* post and side menu container */}
-      <div style={{ display: "flex" }}>
-        <div style={{ width: "70%" }}>
-          {/* post  */}
-          <Post />
-          <Post />
-          <Post />
-          <Post />
-          <Post />
-          <Post />
-          <Post />
-          <Post />
-          <Post />
-          <Post />
-          <Post />
-          <Post />
-          <Post />
-          <Post />
-          <Post />
-          <Post />
-          {/* ==post== */}
-        </div>
-      {/* ==post and side menu container== */}
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        {/* post and side menu container */}
+        <div style={{ display: "flex", width: "60%" }}>
+          <div style={{ width: "70%" }}>
+            {/* post  */}
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            {/* ==post== */}
+          </div>
+          {/* ==post and side menu container== */}
 
-      {/* side menu */}
-      <div>
-        <SideMenu />
+          {/* side menu */}
+          <div style={{ width: "30%" }}>
+            <SideMenu />
+          </div>
+          {/* ==side menu== */}
+        </div>
+        
       </div>
-      {/* ==side menu== */}
-      </div>
+
 
     </div>
   );
