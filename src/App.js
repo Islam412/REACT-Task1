@@ -34,10 +34,6 @@ function App() {
       </div>
       {/* post and side menu container */}
 
-      {/* <div style={{ width: "70%" }}>
-        <Post />
-      </div> */}
-
     </div>
   );
 }
