@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './Header';
 import Post from './Post';
+import SideMenu from './SideMenu';
 
 function App() {
   return (
@@ -31,8 +32,14 @@ function App() {
           <Post />
           {/* ==post== */}
         </div>
+      {/* ==post and side menu container== */}
+
+      {/* side menu */}
+      <div>
+        <SideMenu />
       </div>
-      {/* post and side menu container */}
+      {/* ==side menu== */}
+      </div>
 
     </div>
   );
