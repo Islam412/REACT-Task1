@@ -10,9 +10,28 @@ function App() {
 
       
       {/* post and side menu container */}
-      {/* post  */}
-      <Post />
-      {/* ==post== */}
+      <div style={{  }}>
+        <div style={{ width: "70%" }}>
+          {/* post  */}
+          <Post />
+          <Post />
+          <Post />
+          <Post />
+          <Post />
+          <Post />
+          <Post />
+          <Post />
+          <Post />
+          <Post />
+          <Post />
+          <Post />
+          <Post />
+          <Post />
+          <Post />
+          <Post />
+          {/* ==post== */}
+        </div>
+      </div>
       {/* post and side menu container */}
 
       {/* <div style={{ width: "70%" }}>
