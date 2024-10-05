@@ -11,7 +11,7 @@ function App() {
 
       
       {/* post and side menu container */}
-      <div style={{  }}>
+      <div style={{ display: "flex" }}>
         <div style={{ width: "70%" }}>
           {/* post  */}
           <Post />
