@@ -2,5 +2,8 @@
     background-color: purple;
     border: none;
     color: white;
+}
 
+.tagButton:hover {
+    background-color: #220431;
 }
