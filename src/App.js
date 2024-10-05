@@ -9,7 +9,16 @@ function App() {
       <Header />
 
       
+      {/* post and side menu container */}
+      {/* post  */}
       <Post />
+      {/* ==post== */}
+      {/* post and side menu container */}
+
+      {/* <div style={{ width: "70%" }}>
+        <Post />
+      </div> */}
+
     </div>
   );
 }
